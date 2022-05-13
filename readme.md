@@ -1,0 +1,28 @@
+# py-fonttools-script
+
+This is the repository containing useful scripts when dealing with CJK fonts.
+
+## Tools
+
+### `get_cjk_char_list`
+
+Get CJK Unified Ideographs characters that are in the `cmap` table of an OpenType font. With slight modification it can list all mapped Unicode characters in the font file.
+
+Dependency: `fontTools`
+
+### `convert_ufo`
+
+Converts a TTF/OTF font to UFO format.
+
+Dependency: `ufo-extractor`
+
+## Precompiled release
+
+Download precompiled Windows release under Releases page, or under `\dist` folder.
+
+## Build
+
+Use `pyinstaller *.spec` to build both program.
+## License
+
+Released under MIT License.
