@@ -107,6 +107,8 @@ def uni_range_check(char_base10):
         return "compat-sup"
     elif char_base10 in char_range(deci("30000"), deci("3134F")): #30000 - 3134F CJK Unified Ideographs Extension G
         return "ext-g"
+    elif char_base10 in char_range(deci("31350"), deci("323AF")): #31350 - 323AF CJK Unified Ideographs Extension H
+        return "ext-h"
     return None
     
 ###FUNC DEF END
