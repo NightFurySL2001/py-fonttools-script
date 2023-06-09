@@ -14,7 +14,7 @@ Dependency: `fontTools`
 
 Converts a TTF/OTF font to UFO format.
 
-Dependency: `ufo-extractor`
+Dependency: `defcon`, `ufo-extractor`
 
 ### `win_file_lister`
 
